@@ -1,36 +1,223 @@
 {
   "now": [
-    { "kr": "세계적인 휴양지 이비자에서, 이 섬의 유일한 한식 케이터링 팀 Shingon Experience와 함께 한국 음식을 만들고 알린다", "en": "Cooking with Shingon Experience — the only Korean catering team on Ibiza — and introducing Korean food to one of the world's busiest destinations", "link": "https://www.theshingon.com/" },
-    { "kr": "자서전 「김봉수의 1/3」을 쓰고 있다", "en": "Writing a memoir, \"1/3\"" },
-    { "kr": "한국 음식을 더 많은 사람에게, 더 많은 자리에서 알리고 싶다", "en": "Bringing Korean food to more people, wherever the table is" }
+    {
+      "kr": "세계적인 휴양지 이비자에서, 이 섬의 유일한 한식 케이터링 팀 Shingon Experience와 함께 한국 음식을 만들고 알린다",
+      "en": "Cooking with Shingon Experience — the only Korean catering team on Ibiza — and introducing Korean food to one of the world's busiest destinations",
+      "link": "https://www.theshingon.com/"
+    },
+    {
+      "kr": "자서전 「김봉수의 1/3」을 쓰고 있다",
+      "en": "Writing a memoir, \"1/3\""
+    },
+    {
+      "kr": "한국 음식을 더 많은 사람에게, 더 많은 자리에서 알리고 싶다",
+      "en": "Bringing Korean food to more people, wherever the table is"
+    }
   ],
   "upcoming": [],
   "dishes": [
-    { "kr": "은대구 나막스", "en": "Half-dried Silver Cod, Scallion, Rice", "origin": "Blgre · Seoul 2023", "image": "/images/dish-eundaegu.jpg",
-      "desc": { "kr": "통영의 대구 지리에서 출발해, 반건조 은대구에 대파 소스와 리조또를 더했다. 흰 젓갈의 맛을 되살린 대표작.", "en": "Born from a fish soup in Tongyeong — half-dried cod with scallion sauce and risotto, the flagship of his white-jeotgal cooking." } },
-    { "kr": "냉이 된장 칼국수", "en": "Shepherd's-purse Doenjang Noodles", "origin": "Mr. Ahn's Craft Makgeolli · Seoul 2016", "image": "/images/dish-naengi.jpg",
-      "desc": { "kr": "뚜껑을 덮은 채 내고, 여는 순간 냉이 향이 한꺼번에 올라온다. 손님에게 주는 첫 번째 선물.", "en": "Served lidded; the aroma of wild greens arrives as the first course." } },
-    { "kr": "양배추 스테이크", "en": "Cabbage Steak, Mussel Sauce", "origin": "Doma · Seoul 2019", "image": "/images/dish-cabbage.jpg",
-      "desc": { "kr": "4시간 저온으로 콩피한 양배추와 홍합 소스. 문 닫기 직전이던 레스토랑을 살린 메뉴.", "en": "Cabbage confited for four hours, finished with mussel sauce — the dish that kept a struggling restaurant open." } },
-    { "kr": "봉수 순대 리조또", "en": "Octopus-head Sundae Risotto", "origin": "Sikbengers · 2020", "image": "/images/dish-sundae.jpg", "fit": true,
-      "desc": { "kr": "버려지는 낙지 머리로 순대를 빚고 오징어 먹물 리조또를 곁들였다. 그의 정체성을 가장 잘 보여준 한 접시.", "en": "Blood sausage from discarded octopus heads over squid-ink risotto — the plate he considers most honestly himself." },
-      "link": { "href": "https://www.youtube.com/watch?v=n-b8RGqIvNs", "kr": "식벤져스 EP.2에서 보기 ↗", "en": "Watch it on Sikbengers EP.2 ↗" } },
-    { "kr": "소 심장, 마늘, 비트 김치", "en": "Beef Heart, Garlic, Beet Kimchi", "origin": "S.Pellegrino · Taipei 2017", "image": "/images/dish-heart.jpg",
-      "desc": { "kr": "아무도 주목하지 않는 식재료를 찾다 고른 소의 심장. 숯불 향을 마늘 소스와 비트 김치로 풀었다.", "en": "An overlooked cut chosen on purpose, charcoal-grilled and balanced with garlic and beet kimchi." } },
-    { "kr": "백김치와 지중해 채소", "en": "White Kimchi, Mediterranean Greens", "origin": "Ibiza · 2026", "image": null, "sample": true,
-      "desc": { "kr": "고추 없이 담근 김치에 이비자의 제철 채소를 더했다. 지금 이 섬에서 만들고 있는 한식.", "en": "Kimchi made without chili, dressed with what the island grows this month." } }
+    {
+      "kr": "은대구 나막스",
+      "en": "Half-dried Silver Cod, Scallion, Rice",
+      "origin": "Blgre · Seoul 2023",
+      "image": "/images/dish-eundaegu.jpg",
+      "desc": {
+        "kr": "통영의 대구 지리에서 출발해, 반건조 은대구에 대파 소스와 리조또를 더했다. 흰 젓갈의 맛을 되살린 대표작.",
+        "en": "Born from a fish soup in Tongyeong — half-dried cod with scallion sauce and risotto, the flagship of his white-jeotgal cooking."
+      }
+    },
+    {
+      "kr": "냉이 된장 칼국수",
+      "en": "Shepherd's-purse Doenjang Noodles",
+      "origin": "Mr. Ahn's Craft Makgeolli · Seoul 2016",
+      "image": "/images/dish-naengi.jpg",
+      "desc": {
+        "kr": "뚜껑을 덮은 채 내고, 여는 순간 냉이 향이 한꺼번에 올라온다. 손님에게 주는 첫 번째 선물.",
+        "en": "Served lidded; the aroma of wild greens arrives as the first course."
+      }
+    },
+    {
+      "kr": "양배추 스테이크",
+      "en": "Cabbage Steak, Mussel Sauce",
+      "origin": "Doma · Seoul 2019",
+      "image": "/images/dish-cabbage.jpg",
+      "desc": {
+        "kr": "4시간 저온으로 콩피한 양배추와 홍합 소스. 문 닫기 직전이던 레스토랑을 살린 메뉴.",
+        "en": "Cabbage confited for four hours, finished with mussel sauce — the dish that kept a struggling restaurant open."
+      }
+    },
+    {
+      "kr": "봉수 순대 리조또",
+      "en": "Octopus-head Sundae Risotto",
+      "origin": "Sikbengers · 2020",
+      "image": "/images/dish-sundae.jpg",
+      "fit": true,
+      "desc": {
+        "kr": "버려지는 낙지 머리로 순대를 빚고 오징어 먹물 리조또를 곁들였다. 그의 정체성을 가장 잘 보여준 한 접시.",
+        "en": "Blood sausage from discarded octopus heads over squid-ink risotto — the plate he considers most honestly himself."
+      },
+      "link": {
+        "href": "https://www.youtube.com/watch?v=n-b8RGqIvNs",
+        "kr": "식벤져스 EP.2에서 보기 ↗",
+        "en": "Watch it on Sikbengers EP.2 ↗"
+      }
+    },
+    {
+      "kr": "소 심장, 마늘, 비트 김치",
+      "en": "Beef Heart, Garlic, Beet Kimchi",
+      "origin": "S.Pellegrino · Taipei 2017",
+      "image": "/images/dish-heart.jpg",
+      "desc": {
+        "kr": "아무도 주목하지 않는 식재료를 찾다 고른 소의 심장. 숯불 향을 마늘 소스와 비트 김치로 풀었다.",
+        "en": "An overlooked cut chosen on purpose, charcoal-grilled and balanced with garlic and beet kimchi."
+      }
+    },
+    {
+      "kr": "백김치와 지중해 채소",
+      "en": "White Kimchi, Mediterranean Greens",
+      "origin": "Ibiza · 2026",
+      "image": null,
+      "sample": true,
+      "desc": {
+        "kr": "고추 없이 담근 김치에 이비자의 제철 채소를 더했다. 지금 이 섬에서 만들고 있는 한식.",
+        "en": "Kimchi made without chili, dressed with what the island grows this month."
+      }
+    }
   ],
   "journal": [
-    { "date": "2026.09", "kr": "이 곳을 열며", "en": "Opening This Page",
-      "body": { "kr": "이 사이트는 완성된 이력서가 아니라 계속 쓰이고 있는 기록이다. 대구에서 시작해 뉴욕과 호주, 서울을 거쳐 지금은 이비자에 있다.", "en": "This site is not a finished résumé — it is a record still being written. From Daegu to New York, Australia, Seoul, and now Ibiza." } },
-    { "date": "2026.09", "kr": "이비자에서 한식을 만든다는 것", "en": "Cooking Korean Food on a Spanish Island",
-      "body": { "kr": "이곳 손님들은 한식을 거의 모른 채 테이블에 앉는다. 그래서 오히려 자유롭다. 원칙은 지키되, 이 섬의 계절과 입맛에 맞춰 매번 다시 그린다.", "en": "Most guests here know almost nothing about Korean food — which, oddly, is freeing. I keep the principles and redraw the plate around this island each time." } }
+    {
+      "date": "2026.09",
+      "kr": "이 곳을 열며",
+      "en": "Opening This Page",
+      "body": {
+        "kr": "이 사이트는 완성된 이력서가 아니라 계속 쓰이고 있는 기록이다. 대구에서 시작해 뉴욕과 호주, 서울을 거쳐 지금은 이비자에 있다.",
+        "en": "This site is not a finished résumé — it is a record still being written. From Daegu to New York, Australia, Seoul, and now Ibiza."
+      }
+    },
+    {
+      "date": "2026.09",
+      "kr": "이비자에서 한식을 만든다는 것",
+      "en": "Cooking Korean Food on a Spanish Island",
+      "body": {
+        "kr": "이곳 손님들은 한식을 거의 모른 채 테이블에 앉는다. 그래서 오히려 자유롭다. 원칙은 지키되, 이 섬의 계절과 입맛에 맞춰 매번 다시 그린다.",
+        "en": "Most guests here know almost nothing about Korean food — which, oddly, is freeing. I keep the principles and redraw the plate around this island each time."
+      }
+    }
   ],
   "events": [
-    { "when": "2024.09", "type": "Netflix", "image": "/images/ev-netflix.jpg", "kr": "「흑백요리사: 요리 계급 전쟁」 시즌 1 — 흑수저 \"봉주부\"로 출연", "en": "Culinary Class Wars, Season 1 — competed as \"Bongjubu\"" },
-    { "when": "2020.06–07", "type": "TV", "image": "/images/ev-sikbengers.jpg", "kr": "Olive TV 「식벤져스」 — 광장시장 상권 살리기, 버려지는 재료 없는 식당 만들기", "en": "Sikbengers — reviving Gwangjang Market with a zero-waste kitchen", "link": { "href": "https://www.youtube.com/watch?v=n-b8RGqIvNs", "kr": "봉-순대 리조또 영상 ↗", "en": "Watch EP.2 ↗" } },
-    { "when": "2019.10", "type": "TV", "image": "/images/ev-kbs.jpg", "kr": "KBS1 「한국인의 밥상」 제432회 \"올해도 반갑구나! — 태백산맥 가을 버섯 밥상\"", "en": "KBS Korean Table, episode 432 — \"Autumn mushrooms of the Taebaek mountains\"" },
-    { "when": "2017.11", "type": "Competition", "image": "/images/ev-spellegrino.jpg", "kr": "S.Pellegrino Young Chef 2018 — 한국 대표, 북동아시아 지역 결선(타이베이)", "en": "S.Pellegrino Young Chef 2018 — Korea representative, North-East Asia regional final, Taipei" },
-    { "when": "2016", "type": "Project", "image": "/images/ev-ganada.jpg", "kr": "가나다 밥상 — 가치를 나누고 다양한 밥을 짓는 밥상. 4H 청년 농부들과 버려지는 지역 식재료로 차림", "en": "Ganada Table — \"share the value, cook many kinds of rice\"; a table of rescued local produce with young 4-H farmers", "link": { "href": "https://www.youtube.com/watch?v=W0-_3JFQJS0", "kr": "TBS 영상 ↗", "en": "Watch on TBS ↗" } }
+    {
+      "when": "2024.09",
+      "type": "Netflix",
+      "image": "/images/ev-netflix.jpg",
+      "kr": "「흑백요리사: 요리 계급 전쟁」 시즌 1 — 흑수저 \"봉주부\"로 출연",
+      "en": "Culinary Class Wars, Season 1 — competed as \"Bongjubu\""
+    },
+    {
+      "kr": "세계일보 인터뷰 — “여러 빛 흡수하는 흰색처럼… 다양한 감각 깨우고 싶어”",
+      "en": "Segye Ilbo interview — “Like white, which takes in every color”",
+      "type": "Press",
+      "when": "2023.01",
+      "image": null,
+      "desc": {
+        "kr": "블그레 시절의 인터뷰. 재료를 남김없이 쓰는 이유와, 지구의 주인은 인간이 아니라는 생각을 가장 길게 말한 글.",
+        "en": "An interview from the Blgre years — the longest I have spoken about wasting nothing, and about the earth not belonging to us."
+      },
+      "link": {
+        "href": "https://www.segye.com/newsView/20230125518155",
+        "kr": "기사 보기 ↗",
+        "en": "Read the article ↗"
+      }
+    },
+    {
+      "kr": "세계일보 — 육류·해산물에 원초적 불맛… '겉바속촉' 끝판왕",
+      "en": "Segye Ilbo — Primal fire on meat and seafood",
+      "type": "Press",
+      "when": "2020.08",
+      "image": null,
+      "desc": {
+        "kr": "도곡동 도마의 장작불. 훈연한 통양배추와 된장 거품 — 불 앞에 서 있던 시절의 기록.",
+        "en": "The wood fire at Doma in Dogok-dong — smoked whole cabbage, doenjang foam. A record of the years I stood in front of the fire."
+      },
+      "link": {
+        "href": "https://www.segye.com/newsView/20200810525297",
+        "kr": "기사 보기 ↗",
+        "en": "Read the article ↗"
+      }
+    },
+    {
+      "when": "2020.06–07",
+      "type": "TV",
+      "image": "/images/ev-sikbengers.jpg",
+      "kr": "Olive TV 「식벤져스」 — 광장시장 상권 살리기, 버려지는 재료 없는 식당 만들기",
+      "en": "Sikbengers — reviving Gwangjang Market with a zero-waste kitchen",
+      "link": {
+        "href": "https://www.youtube.com/watch?v=n-b8RGqIvNs",
+        "kr": "봉-순대 리조또 영상 ↗",
+        "en": "Watch EP.2 ↗"
+      }
+    },
+    {
+      "when": "2019.10",
+      "type": "TV",
+      "image": "/images/ev-kbs.jpg",
+      "kr": "KBS1 「한국인의 밥상」 제432회 \"올해도 반갑구나! — 태백산맥 가을 버섯 밥상\"",
+      "en": "KBS Korean Table, episode 432 — \"Autumn mushrooms of the Taebaek mountains\""
+    },
+    {
+      "kr": "아레나옴므플러스 — 식탁의 젊은 피",
+      "en": "Arena Homme+ — Young blood at the table",
+      "type": "Press",
+      "when": "2017.11",
+      "image": null,
+      "desc": {
+        "kr": "아무도 쓰지 않는 소의 심장으로 세계 대회에 나간 이유. 요리사는 다음 세대를 생각해야 한다는 말을 처음 공개적으로 한 글.",
+        "en": "Why I took a beef heart no one wanted to an international competition — and the first time I said in public that a cook must think of the next generation."
+      },
+      "link": {
+        "href": "https://www.arenakorea.com/news/articleView.html?idxno=36565",
+        "kr": "기사 보기 ↗",
+        "en": "Read the article ↗"
+      }
+    },
+    {
+      "when": "2017.11",
+      "type": "Competition",
+      "image": "/images/ev-spellegrino.jpg",
+      "kr": "S.Pellegrino Young Chef 2018 — 한국 대표, 북동아시아 지역 결선(타이베이)",
+      "en": "S.Pellegrino Young Chef 2018 — Korea representative, North-East Asia regional final, Taipei",
+      "link": {
+        "href": "https://v.daum.net/v/L74LvrpEMO",
+        "kr": "기사 보기 ↗",
+        "en": "Read the article ↗"
+      }
+    },
+    {
+      "kr": "“요리사는 비용이 아니라 투자의 대상이다” — 안씨막걸리의 대담한 도전",
+      "en": "“A cook is an investment, not a cost” — the bold bet of Mr. Ahn’s Craft Makgeolli",
+      "type": "Press",
+      "when": "2016.05",
+      "image": null,
+      "desc": {
+        "kr": "경리단길 안씨막걸리가 셰프를 어떻게 찾았는지, 그리고 그 뒤에 무엇이 바뀌었는지. 2.5평 주방이 시작된 자리.",
+        "en": "How a small makgeolli house in Gyeongnidan-gil went looking for a cook, and what changed afterwards. Where the eight-square-meter kitchen began."
+      },
+      "link": {
+        "href": "https://leeuno.kr/?p=12422",
+        "kr": "기사 보기 ↗",
+        "en": "Read the article ↗"
+      }
+    },
+    {
+      "when": "2016",
+      "type": "Project",
+      "image": "/images/ev-ganada.jpg",
+      "kr": "가나다 밥상 — 가치를 나누고 다양한 밥을 짓는 밥상. 4H 청년 농부들과 버려지는 지역 식재료로 차림",
+      "en": "Ganada Table — \"share the value, cook many kinds of rice\"; a table of rescued local produce with young 4-H farmers",
+      "link": {
+        "href": "https://www.youtube.com/watch?v=W0-_3JFQJS0",
+        "kr": "TBS 영상 ↗",
+        "en": "Watch on TBS ↗"
+      }
+    }
   ]
 }

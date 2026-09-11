@@ -201,7 +201,7 @@ export default function Page() {
         {/* EVENTS */}
         <section className="events wrap" id="events">
           <div className="center">
-            <p className="eyebrow em"><T kr="지난 자리들" en="Events" /></p>
+            <p className="eyebrow em"><T kr="발자취" en="Footprints" /></p>
             <span className="dash"></span>
             <h2 className="title"><T {...s.eventsTitle} /></h2>
           </div>
@@ -210,7 +210,11 @@ export default function Page() {
               <div className="ev" key={i}>
                 <div className="eimg">{e.image && <img src={e.image} alt="" loading="lazy" />}</div>
                 <span className="y">{e.when}</span><span className="t">{e.type}</span>
-                <div><T kr={e.kr} en={e.en} />{e.link && <> · <a className="more" href={e.link.href} target="_blank" rel="noopener"><T kr={e.link.kr} en={e.link.en} /></a></>}</div>
+                <div>
+                  {e.link ? <a className="evt" href={e.link.href} target="_blank" rel="noopener"><T kr={e.kr} en={e.en} /></a> : <T kr={e.kr} en={e.en} />}
+                  {e.desc && (e.desc.kr || e.desc.en) && <p className="edesc"><T kr={e.desc.kr} en={e.desc.en || e.desc.kr} /></p>}
+                  {e.link && <a className="more" href={e.link.href} target="_blank" rel="noopener"><T kr={e.link.kr} en={e.link.en} /></a>}
+                </div>
               </div>
             ))}
           </div>

@@ -177,6 +177,12 @@
   .ev .t{ font-family:var(--sans); font-size:.66rem; letter-spacing:.16em; text-transform:uppercase; color:var(--ember); padding-top:8px; }
   @media (max-width:640px){ .ev{ grid-template-columns:64px 1fr; gap:6px 14px; } .ev .y,.ev .t{ grid-column:2; } .ev .eimg{ grid-row:span 3; } }
 
+  .ev .evt{ text-decoration:none; color:inherit; } .ev .evt:hover{ color:var(--ember); }
+  .ev .edesc{ color:var(--ink-2); font-size:.9rem; margin-top:6px; line-height:1.7; }
+  .ev .more{ display:inline-block; margin-top:8px; }
+  .ev > div > .more{ display:table; }
+  .ev .eimg:empty{ background:transparent; }
+
   /* contact */
   .contact .mail{ display:inline-block; margin-top:28px; font-family:var(--serif-en); font-size:1.35rem; text-decoration:none; border-bottom:1px solid var(--ember); padding-bottom:4px; }
   .contact .mail:hover{ color:var(--ember); }
