@@ -131,7 +131,12 @@ async function main() {
     for (const r of rows) {
       const p = r.properties; if (sel(p['Status']) !== 'Published') continue;
       const blocks = await retry(() => notion.blocks.children.list({ block_id: r.id, page_size: 100 }), 'Journal 본문');
-      const para = (b) => b.paragraph.rich_text.map((t) => t.plain_text).join('');
+      // 링크·페이지 멘션은 주소를 함께 남김 (사이트에서 클릭 가능한 링크로 바뀜)
+      const para = (b) => b.paragraph.rich_text.map((t) => {
+        if (t.type === 'mention') return t.href || t.plain_text;
+        if (t.href && t.href !== t.plain_text && !/^https?:\/\//.test(t.plain_text)) return `${t.plain_text} ${t.href}`;
+        return t.plain_text;
+      }).join('');
       const divider = blocks.results.findIndex((b) => b.type === 'divider');
       const before = blocks.results.slice(0, divider < 0 ? undefined : divider).filter((b) => b.type === 'paragraph').map(para).join('\n\n');
       const after = divider < 0 ? '' : blocks.results.slice(divider + 1).filter((b) => b.type === 'paragraph').map(para).join('\n\n');
