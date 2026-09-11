@@ -13,6 +13,12 @@ const T = ({ kr, en, as: Tag = 'span', className = '' }) => (
   </>
 );
 const Lines = ({ text }) => text.split('\n').map((l, i, a) => (<span key={i}>{l}{i < a.length - 1 && <br />}</span>));
+// 본문 속 주소(https://…)를 클릭할 수 있는 링크로 바꿈 — 주소 앞에 "→ " 를 붙이면 그 부분이 링크 글자가 됨
+const Linkify = ({ text }) => text.split(/(https?:\/\/[^\s)]+)/g).map((part, i) =>
+  /^https?:\/\//.test(part)
+    ? <a key={i} className="more" href={part} target="_blank" rel="noopener">{/notion\.(so|com)/.test(part) ? 'Notion ↗' : part.replace(/^https?:\/\/(www\.)?/, '').replace(/\/$/, '') + ' ↗'}</a>
+    : <span key={i}>{part}</span>);
+const TBody = ({ kr, en }) => (<><span className="t-kr"><Linkify text={kr} /></span><span className="t-en"><Linkify text={en} /></span></>);
 
 export default function Page() {
   const s = site; const l = lists;
@@ -166,7 +172,7 @@ export default function Page() {
           <div className={`journal-grid${igPosts.length ? ' single' : ''}`}>
             <div>
               {l.journal.map((j, i) => (
-                <article className="entry" key={i}><p className="d">{j.date}</p><h3><T kr={j.kr} en={j.en} /></h3><p><T {...j.body} /></p></article>
+                <article className="entry" key={i}><p className="d">{j.date}</p><h3><T kr={j.kr} en={j.en} /></h3><p><TBody {...j.body} /></p></article>
               ))}
             </div>
             {!igPosts.length && (
