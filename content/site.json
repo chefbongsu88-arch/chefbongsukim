@@ -299,5 +299,127 @@
     "en": "The ground of this site is the color of rice-rinsing water; the accent, a charcoal ember; the ink, soy sauce. Headings are set in a book serif; the handwriting is a signature."
   },
   "domain": "https://www.chefbongsukim.com",
-  "instagramPosts": []
+  "instagramPosts": [],
+  "heroPhotos": [
+    {
+      "src": "/images/hero.jpg",
+      "alt": {
+        "kr": "김봉수 셰프 — 흰 벽 앞, 앞치마를 두른 흑백 초상",
+        "en": "Chef Bongsu Kim, black-and-white portrait in an apron against a white wall"
+      },
+      "tall": false
+    },
+    {
+      "src": "/images/hero-02.jpg",
+      "alt": {
+        "kr": "김봉수 셰프 — 블그레 주방, 테이블에 앉은 초상",
+        "en": "Chef Bongsu Kim — seated at the Blgre kitchen table"
+      },
+      "tall": true
+    },
+    {
+      "src": "/images/hero-03.jpg",
+      "alt": {
+        "kr": "김봉수 셰프 — 나무 벽 앞, 팔짱을 낀 초상",
+        "en": "Chef Bongsu Kim — arms crossed before a wooden wall"
+      },
+      "tall": true
+    },
+    {
+      "src": "/images/hero-04.jpg",
+      "alt": {
+        "kr": "김봉수 셰프 — 주방에서 재료를 손질하는 모습",
+        "en": "Chef Bongsu Kim — prepping in the kitchen"
+      },
+      "tall": false
+    },
+    {
+      "src": "/images/hero-05.jpg",
+      "alt": {
+        "kr": "김봉수 셰프 — 그릇에 마무리하는 모습",
+        "en": "Chef Bongsu Kim — finishing bowls"
+      },
+      "tall": true
+    },
+    {
+      "src": "/images/hero-06.jpg",
+      "alt": {
+        "kr": "김봉수 셰프 — 플레이팅 클로즈업",
+        "en": "Chef Bongsu Kim — plating, close up"
+      },
+      "tall": true
+    },
+    {
+      "src": "/images/hero-07.jpg",
+      "alt": {
+        "kr": "김봉수 셰프 — 동료 셰프와 접시를 마무리하는 모습",
+        "en": "Chef Bongsu Kim — finishing plates with a fellow cook"
+      },
+      "tall": true
+    },
+    {
+      "src": "/images/hero-08.jpg",
+      "alt": {
+        "kr": "김봉수 셰프 — 동료 셰프와 나란히 선 모습",
+        "en": "Chef Bongsu Kim — with a fellow cook"
+      },
+      "tall": false
+    },
+    {
+      "src": "/images/hero-09.jpg",
+      "alt": {
+        "kr": "김봉수 셰프 — 데님 앞치마를 두르고 웃는 모습",
+        "en": "Chef Bongsu Kim — laughing in a denim apron"
+      },
+      "tall": true
+    },
+    {
+      "src": "/images/hero-10.jpg",
+      "alt": {
+        "kr": "김봉수 셰프 — 조리복을 입은 초상",
+        "en": "Chef Bongsu Kim — portrait in chef whites"
+      },
+      "tall": true
+    },
+    {
+      "src": "/images/hero-11.jpg",
+      "alt": {
+        "kr": "김봉수 셰프 — 코트 깃을 세운 초상",
+        "en": "Chef Bongsu Kim — collar up"
+      },
+      "tall": true
+    },
+    {
+      "src": "/images/hero-12.jpg",
+      "alt": {
+        "kr": "김봉수 셰프 — 빗을 콧수염처럼 든 장난스러운 초상",
+        "en": "Chef Bongsu Kim — a comb for a moustache"
+      },
+      "tall": true
+    },
+    {
+      "src": "/images/hero-13.jpg",
+      "alt": {
+        "kr": "김봉수 셰프 — 밀가루가 묻은 얼굴, 장난스러운 순간",
+        "en": "Chef Bongsu Kim — flour on the cheek"
+      },
+      "tall": true
+    },
+    {
+      "src": "/images/hero-14.jpg",
+      "alt": {
+        "kr": "김봉수 셰프 — 찡그린 얼굴, 장난스러운 초상",
+        "en": "Chef Bongsu Kim — a grimace"
+      },
+      "tall": true
+    },
+    {
+      "src": "/images/hero-15.jpg",
+      "alt": {
+        "kr": "김봉수 셰프 — 곱슬 가발을 쓴 셀카",
+        "en": "Chef Bongsu Kim — curly wig selfie"
+      },
+      "tall": true
+    }
+  ]
 }

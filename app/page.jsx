@@ -2,6 +2,7 @@ import site from '../content/site.json';
 import lists from '../content/lists.json';
 import { LangToggle, NavEffects } from '../components/LangProvider';
 import ContactForm from '../components/ContactForm';
+import HeroCarousel from '../components/HeroCarousel';
 import Script from 'next/script';
 
 export const revalidate = 600;
@@ -53,7 +54,7 @@ export default function Page() {
           <h1>{s.name.en}<span className="kr">{s.name.kr}</span></h1>
           <p className="thesis narrow"><T {...s.headline} /></p>
           <p className="role">{s.credentials.map((c) => <span key={c}>{c}</span>)}</p>
-          <div className="hero-photo"><div className="ph has"><img src={s.portrait.src} alt={s.portrait.alt.kr} fetchPriority="high" /></div></div>
+          <HeroCarousel photos={(s.heroPhotos && s.heroPhotos.length) ? s.heroPhotos : [s.portrait]} />
         </section>
 
         {/* VOICE */}
