@@ -151,9 +151,11 @@ async function main() {
       if (m) { kv[`${section}|${m[1]}`] = m[2]; }
       // "Instagram" 제목 아래에 있는 게시물 링크(본문 또는 링크 속성) 수집
       if (/instagram/i.test(section)) {
+        // 한 줄에 링크 하나만: 보이는 글자의 링크를 우선, 없으면 숨은 링크(href)
         const rt = b[b.type]?.rich_text || [];
-        const urls = [t, ...rt.map((x) => x.href || '')].join(' ').match(/https?:\/\/(www\.)?instagram\.com\/(p|reel)\/[A-Za-z0-9_-]+\/?/g) || [];
-        for (const u of urls) { const clean = u.replace(/\/?$/, '/'); if (!ig.includes(clean)) ig.push(clean); }
+        const re = /https?:\/\/(www\.)?instagram\.com\/(p|reel)\/[A-Za-z0-9_-]+/;
+        const m = t.match(re) || rt.map((x) => x.href || '').join(' ').match(re);
+        if (m) { const clean = m[0].replace(/^https?:\/\/instagram\.com/, 'https://www.instagram.com') + '/'; if (!ig.includes(clean)) ig.push(clean); }
       }
     }
     site.instagramPosts = ig;
