@@ -118,8 +118,17 @@ async function main() {
       const kr = text(p['Title (KR)']), en = text(p['Title (EN)']);
       if (st === 'Upcoming') { up.push({ kr, en, type: sel(p['Type']), when: whenFmt(p['Date']), date: dateStart(p['Date']).replace(/-/g, '.'), desc: { kr: text(p['Description (KR)']), en: text(p['Description (EN)']) } }); continue; }
       const prev = findPrev(lists.events, kr, en);
-      // 사진: Notion Cover가 있으면 그것, 없으면 기존 사진 유지. 링크: 기존 링크 유지. 유형: 기존 표기(Netflix/TV…) 유지
-      past.push({ kr, en, type: prev?.type || sel(p['Type']), when: whenFmt(p['Date']), image: (await saveFile(p['Cover'], 'ev-' + slug(kr))) || prev?.image || null, link: prev?.link });
+      // 링크: Notion 'Description (KR)'에 주소(https://…)가 있으면 그 주소로 (유튜브 → "영상 보기", 그 외 → "기사 보기"), 없으면 기존 링크 유지
+      const rtKR = p['Description (KR)']?.rich_text || [];
+      const urlInDesc = [text(p['Description (KR)']), ...rtKR.map((x) => x.href || '')].join(' ').match(/https?:\/\/[^\s)]+/);
+      let link = prev?.link;
+      if (urlInDesc) {
+        const href = urlInDesc[0];
+        const isVideo = /youtube\.com|youtu\.be|vimeo\.com/.test(href);
+        link = prev?.link?.href === href ? prev.link : { href, kr: isVideo ? '영상 보기 ↗' : '기사 보기 ↗', en: isVideo ? 'Watch ↗' : 'Read the article ↗' };
+      }
+      // 사진: Notion Cover가 있으면 그것, 없으면 기존 사진 유지. 유형: 기존 표기(Netflix/TV…) 유지
+      past.push({ kr, en, type: prev?.type || sel(p['Type']), when: whenFmt(p['Date']), image: (await saveFile(p['Cover'], 'ev-' + slug(kr))) || prev?.image || null, link });
     }
     lists.upcoming = up;
     if (past.length) lists.events = past;
