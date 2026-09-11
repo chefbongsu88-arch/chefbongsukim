@@ -18,6 +18,11 @@ export const metadata = {
   twitter: { card: 'summary_large_image', title: '김봉수 Bongsu Kim — Chef', images: ['/images/og.jpg'] },
   robots: { index: true, follow: true },
   icons: { icon: '/favicon.svg' },
+  verification: {
+    google: 'tMxq1bGplHkzPYmlj1OPkEeGcyCMFOVHFDPFmESOmHM',
+    // 네이버 서치어드바이저 태그가 오면 아래 줄에 추가
+    // other: { 'naver-site-verification': '...' },
+  },
 };
 
 export default function RootLayout({ children }) {
