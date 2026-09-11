@@ -1,0 +1,141 @@
+{
+  "name": { "en": "Bongsu Kim", "kr": "김봉수" },
+  "eyebrow": { "kr": "셰프 · 이비자, 스페인", "en": "Chef · Ibiza, Spain" },
+  "headline": { "kr": "혀를 속이는 일, 그리고 예술.", "en": "The art of fooling the tongue." },
+  "credentials": ["Jungsik NY", "Mr. Ahn's Craft Makgeolli", "Doma", "Marine", "Dexter Gordon", "Blgre", "Netflix", "Ibiza"],
+  "portrait": { "src": "/images/hero.jpg", "alt": { "kr": "김봉수 셰프 — 흰 벽 앞, 앞치마를 두른 흑백 초상", "en": "Chef Bongsu Kim, black-and-white portrait in an apron against a white wall" } },
+  "voice": {
+    "title": { "kr": "익숙한 새로움 속에, 섞음과 삭힘", "en": "Familiar newness, built from mixing and fermenting" },
+    "lead": {
+      "kr": "혀와 코로는 분명 아는 맛인데, 눈과 귀로는 처음 보는 것. 한국 음식의 정체성은 지키되, 그 안에 내가 지나온 주방들 — 뉴욕, 호주, 서울, 그리고 이비자 — 을 녹인다. 섞고, 삭히고, 다시 그린다.",
+      "en": "A taste the tongue and nose already know, in a form the eyes and ears have never seen. The identity of Korean food stays intact; what I fold into it are the kitchens I have passed through — New York, Australia, Seoul, and now Ibiza. Mix, ferment, redraw."
+    },
+    "quote": {
+      "kr": "삶이라는 요리에는 정해진 레시피가 없다.\n태워 먹었다고 해도 괜찮다. 다시 불을 켜면 된다.",
+      "en": "There is no fixed recipe for a life. Burn it, and it is still fine — light the fire again."
+    },
+    "principles": [
+      {
+        "kr": "땅과 계절", "en": "Place & Season", "image": "/images/p1.jpg",
+        "alt": { "kr": "흙을 두 손에 담은 모습", "en": "Soil held in two hands" },
+        "body": {
+          "kr": "가장 먼 재료보다, 지금 이 땅에서 가장 좋은 재료를 먼저 찾는다. 스무 살, 해군 공관 옆 밭에 씨를 뿌리고 물때에 맞춰 조개를 캐던 1년 동안 처음 알았다 — 식재료는 사는 것이 아니라 바다와 산이 내어주는 자연의 선물이라는 것을. 호주 건다가이의 밭에서, 아티카의 허브 정원에서, 지금은 이비자의 시장에서 그 순서를 다시 배운다. 한국에서 오는 장은 다리일 뿐, 접시의 몸은 이 섬의 계절이다.",
+          "en": "Before the ingredient that traveled farthest, I look for the best one this land has right now. I first understood this at twenty, sowing a small field beside a naval residence and digging clams by the tide: ingredients are not bought, they are gifts the sea and the mountains hand us. I relearned that order in a vegetable patch in Gundagai, in Attica's herb garden, and now at the markets of Ibiza. The pastes from Korea are the bridge; the body of the plate is this island's season."
+        }
+      },
+      {
+        "kr": "남김없이", "en": "Nothing Wasted", "image": "/images/p2.jpg",
+        "alt": { "kr": "채소 자투리와 껍질 — 버려질 재료들", "en": "Vegetable scraps and peel, the parts that get thrown away" },
+        "body": {
+          "kr": "버려질 재료에도 맛과 이야기가 있다. 파인다이닝 주방에서 가장 예쁜 부분만 남기고 쓰레기통으로 가는 재료들을 보며 마음이 아팠다. 그래서 탕탕이에 쓰고 남은 낙지 머리로 순대를 빚었고, 아무도 쓰지 않는 소의 심장으로 대회에 나갔다. 남은 것을 말려 가루로 만들다 '파우더맨'이라는 별명까지 얻었다. 버리는 대신 한 번 더 묻는다 — 이건 무엇이 될 수 있을까.",
+          "en": "What gets thrown away still has flavor and a story. In fine-dining kitchens I watched ingredients trimmed to their prettiest inch and the rest go to the bin, and it hurt. So I made blood sausage from octopus heads left over from another dish, and took a beef heart no one wanted to an international competition. Turning scraps into powders earned me the nickname \"Powder Man.\" Instead of discarding, I ask once more — what could this become?"
+        }
+      },
+      {
+        "kr": "환대", "en": "Hospitality", "image": "/images/p3.jpg",
+        "alt": { "kr": "해군사관학교 교장님과 — 공관에서 요리하던 스무 살", "en": "With the Naval Academy superintendent, the year I cooked at the residence" },
+        "body": {
+          "kr": "요리는 배를 채우는 일을 넘어, 사람을 환대하는 일이다. 해군 공관에서 매일 같은 분을 위해 요리하며 배웠다 — \"음식보다 중요한 게 뭐냐\"는 물음에 나는 신뢰라고 답했다. 2.5평 주방 시절, 밖에서 기다리는 손님에게 국물 한 그릇과 막걸리 한 잔을 먼저 내던 것도 같은 마음이다.",
+          "en": "Cooking is more than filling a stomach; it is welcoming a person. I learned that cooking every day for the same family at a naval residence — asked what mattered more than food, I answered: trust. In my eight-square-meter kitchen years later, a bowl of broth and a cup of makgeolli went out to guests still waiting in line for the same reason."
+        }
+      },
+      {
+        "kr": "익숙한 새로움", "en": "Familiar Newness", "image": "/images/p4.jpg",
+        "alt": { "kr": "익숙한 새로움", "en": "Familiar newness" },
+        "body": {
+          "kr": "전통을 바탕에 두고, 오늘의 방식으로 풀어낸다. 혀와 코로는 익숙하지만 눈과 귀로는 낯설게. \"어디서 많이 먹어봤는데 뭐지?\" — 손님이 그렇게 말하면 제일 좋았다. 발효와 젓갈, 그리고 밥 한 그릇을 가운데 두고 나물이 둘러싸는 한국의 밥상 — 그 바탕 위에서 오늘의 언어로 풀어낸 요리가 그 질문의 답이다.",
+          "en": "Tradition is the foundation; I unfold it in today's way. Familiar on the tongue and nose, unfamiliar to the eyes and ears. \"I've had this somewhere — what is it?\" That was always my favorite thing to hear. Fermentation, jeotgal, and the Korean table itself — a bowl of rice at the center, surrounded by namul, the seasoned vegetables — built upon and unfolded in today's language: that is my answer to that question."
+        }
+      },
+      {
+        "kr": "다음 식탁", "en": "The Next Table", "image": "/images/p5.jpg",
+        "alt": { "kr": "TBS 「현장룩」 — 못난이지만 맛은 맛있으니까", "en": "On TBS: ugly, but it still tastes good" },
+        "body": {
+          "kr": "맛의 기준에 환경과 다음 세대까지 포함한다. 댄 바버의 「제3의 식탁」을 읽고 알았다 — 요리사는 환경이 변하고 있다는 걸 누구보다 먼저 느끼는 직업이라는 것을. 책을 덮고 실제로 움직였다. 지역 4H 청년 농부들과 손을 잡고, 모양이 못나서 밭에 버려지는 채소로 '가나다 밥상'을 차렸다 — 가치를 나누고, 다양한 밥을 짓는 밥상. 식벤져스에서는 전국에서 버려지는 식재료를 모아 팝업 식당을 열었다. 지금은 텀블러를 늘 들고 다닌다. 나 하나로 세상이 바뀌지 않아도, 아무도 하지 않는다면 내가 한다.",
+          "en": "Delicious has to include the environment and the next generation. Dan Barber's The Third Plate taught me that cooks are the first to feel the climate shifting. I closed the book and acted: with young 4-H farmers I set the Ganada Table — its name means \"share the value, cook many kinds of rice\" — entirely from produce left in the field for being misshapen; on Sikbengers we gathered ingredients discarded across the country and ran a pop-up restaurant on them. These days I carry a tumbler everywhere. One cook will not change the world — but if no one else is doing it, I will."
+        }
+      }
+    ],
+    "booksLabel": { "kr": "요리를 바꾼 두 권의 책", "en": "Two books that changed how I cook" },
+    "books": [
+      {
+        "title": "Catching Fire — Richard Wrangham", "sub": "「요리 본능」 리처드 랭엄", "cover": "/images/book-catching-fire.jpg",
+        "paragraphs": {
+          "kr": [
+            "불로 익힌 첫 끼가 인간을 만들었다는 책. 익힌 음식은 씹고 소화하는 데 쓰던 시간을 돌려주었고, 사람은 그 시간에 불 곁에 모여 나누는 법을 배웠다. 요리는 문명보다 오래된 일이다.",
+            "2026년의 요리사들이 다시 장작불로 돌아가는 이유도 여기 있다고 믿는다. 정밀한 기계로 무엇이든 조절할 수 있는 세상에서, 셰프들은 오히려 조절할 수 없는 불 앞에 선다. 어떤 셰프는 그것을 \"우리 DNA에 있는 맛\"이라 했고, 어떤 셰프는 \"나와 재료와 불, 그것뿐\"이라 했다. 원시에서 분자요리까지 갔다가, 다시 처음으로 돌아오는 중이다.",
+            "나는 도마에서 우드파이어 화덕을 직접 그려 만들었다. 참나무는 향이 진하고 오래 타고, 사과나무는 달다. 나무를 고르는 일부터 요리였다. 세상은 앞으로 가지만, 맛은 뒤로 돌아간다 — 그래서 나는 불 앞에서 가장 요리사답다."
+          ],
+          "en": [
+            "The book that argues the first cooked meal is what made us human. Cooked food gave back the hours once spent chewing and digesting, and around the fire people learned to share. Cooking is older than civilization.",
+            "I believe that is also why, in 2026, cooks everywhere are going back to wood fire. In a world where a machine can control anything, chefs are choosing to stand in front of the one thing that cannot be controlled. One chef called it \"a taste that is in our DNA\"; another said, \"it's just you, the ingredient, and the fire.\" From the primitive to molecular cuisine and back to the beginning.",
+            "At Doma I drew and built my own wood-fire oven. Oak burns long and deep; applewood burns sweet. Choosing the wood was already cooking. The world moves forward, but taste moves back — which is why I feel most like a cook in front of a fire."
+          ]
+        }
+      },
+      {
+        "title": "The Third Plate — Dan Barber", "sub": "「제3의 식탁」 댄 바버", "cover": "/images/book-third-plate.jpg",
+        "paragraphs": {
+          "kr": [
+            "밭에서 가장 맛있는 부위만 골라 쓰는 대신, 땅이 건강하게 순환하기 위해 필요한 것을 먹는 식탁. 스페인의 한 양어장이 갯벌의 먹이사슬을 거스르지 않고 물고기를 기르는 이야기가 내 요리 인생의 전환점이 되었다. 내가 알던 한국의 사계절 식재료가 조금씩 달라지고 있다고 느끼던 때였다.",
+            "그 뒤로 지역 4H 청년 농부들을 찾아갔다. 크기가 작거나 휘어서 상품이 못 되는 채소들 — 밭이 내어준 것인데 밭에 버려지는 것들. 그것만으로 한 상을 차린 것이 '가나다 밥상'이다 — 가치를 나누고, 다양한 밥을 짓는다는 뜻이다. 식벤져스의 제로웨이스트 팝업도, 낙지 머리 순대도, 늘 들고 다니는 텀블러도 전부 이 책 한 권에서 시작됐다."
+          ],
+          "en": [
+            "Not the tastiest cut from the field, but what the land needs us to eat so it can keep cycling. A Spanish fish farm that simply let the wetland's food chain do its work became the turning point of my cooking life — at a time when I could feel Korea's four seasons of produce quietly shifting.",
+            "Afterwards I went to find young 4-H farmers. Vegetables too small or too crooked to sell — gifts of the field, left in the field. I set a whole table from nothing else and called it the Ganada Table — \"share the value, cook many kinds of rice.\" The zero-waste pop-up on Sikbengers, the octopus-head sundae, the tumbler I now carry everywhere — all of it started with this one book."
+          ]
+        },
+        "link": { "href": "https://www.youtube.com/watch?v=W0-_3JFQJS0", "kr": "가나다 밥상 영상 보기 · TBS ↗", "en": "Watch the Ganada Table on TBS ↗" }
+      }
+    ]
+  },
+  "bands": {
+    "afterVoice": { "src": "/images/band-doma.jpg", "alt": { "kr": "도곡동 도마 팀", "en": "The Doma team, Dogok-dong" } },
+    "beforeContact": { "src": "/images/band-anssi.jpg", "alt": { "kr": "안씨막걸리 주방의 봉주부", "en": "Bongjubu in the kitchen at Mr. Ahn's Craft Makgeolli" } }
+  },
+  "now": {
+    "title": { "kr": "지금 하고 있는 일", "en": "What I am doing now" },
+    "statement": { "kr": "지금은 스페인 이비자에서, 국적보다 계절과 손님을 먼저 보는 한국 음식을 만든다.", "en": "Right now, on the island of Ibiza, season and guest come before nationality." }
+  },
+  "about": {
+    "title": { "kr": "대구에서 이비자까지", "en": "From Daegu to Ibiza" },
+    "bio": {
+      "kr": "대구의 가맥집 아들로 자라 요리를 배웠다. 스무 살 무렵부터 서울, 뉴욕, 호주를 오가며 미슐랭 주방과 허브 농장을 거쳤고, 서른 무렵엔 경리단길 2.5평 주방에서 첨가물 없는 한국 술에 어울리는 요리를 만들기 시작했다. 지금은 세계적인 휴양지 이비자에서, 이 섬의 유일한 한식 케이터링 팀 Shingon Experience와 함께 발효와 제철이라는 원칙만 지키며 매번 다시 그리는 한국 음식을 만들고, 알린다.",
+      "en": "Raised in Daegu above his parents' gamaek — a neighborhood beer-and-snack pub — he learned to cook early. In his twenties he moved through Michelin kitchens and herb farms across Seoul, New York, and Australia; by thirty he was cooking out of an eight-square-meter kitchen in Seoul, pairing food with additive-free Korean rice wine. Today, on Ibiza, he cooks with Shingon Experience — the island's only Korean catering team — redrawing Korean food each time around fermentation and the season, and bringing it to people who have never tasted it."
+    },
+    "teamLink": { "label": "Shingon Experience", "href": "https://www.theshingon.com/" },
+    "recognition": [
+      { "title": "Michelin Guide Seoul", "kr": "안씨막걸리 — 막걸리집 최초 등재", "en": "Mr. Ahn's Craft Makgeolli — first makgeolli house listed" },
+      { "title": "Netflix · Culinary Class Wars", "kr": "흑백요리사 시즌 1 · \"봉주부\" · 2024", "en": "Season 1 · as \"Bongjubu\" · 2024" },
+      { "title": "S.Pellegrino Young Chef 2018", "kr": "한국 대표 · 북동아시아 지역 결선(준결승), 타이베이", "en": "Korea representative · North-East Asia regional final, Taipei" },
+      { "title": "KBS · 한국인의 밥상", "kr": "제432회 · 태백산맥 가을 버섯 밥상 · 2019", "en": "Korean Table, ep. 432 · 2019" },
+      { "title": "Olive TV · 식벤져스", "kr": "2020 · 광장시장 프로젝트", "en": "Sikbengers · 2020" }
+    ],
+    "career": [
+      { "when": "2010–2013 · Seoul → NYC", "kr": "정식당 Chef de Partie — 서울(미슐랭 2스타)에 이어 뉴욕 Jungsik(현재 미슐랭 3스타)", "en": "Chef de partie, Jungsik Seoul (two Michelin stars), then Jungsik New York (today three Michelin stars)" },
+      { "when": "2013–2015 · Australia", "kr": "Bacchus(브리즈번) 셰프, Pei Modern(멜버른) 수셰프", "en": "Chef at Bacchus, Brisbane; sous chef at Pei Modern, Melbourne" },
+      { "when": "2015–2017 · Seoul", "kr": "경리단길 안씨막걸리 · 21세기서울 Chef de Cuisine — 막걸리집 최초 미슐랭 가이드 등재", "en": "Chef de cuisine, Mr. Ahn's Craft Makgeolli (Gyeongnidan-gil) and 21st Century Seoul — the first makgeolli house in the Michelin Guide" },
+      { "when": "2017 · Taipei", "kr": "S.Pellegrino Young Chef 2018 — 한국 대표 5인, 북동아시아 지역 결선 출전", "en": "S.Pellegrino Young Chef 2018 — one of five Korean representatives at the North-East Asia regional final" },
+      { "when": "2017–2021 · Seoul", "kr": "CIC F&B 총괄 헤드셰프 — 도곡동 우드파이어 레스토랑 도마·마린, 바스크 치즈케이크 브랜드 덱스터고든. 화덕은 직접 설계", "en": "Head chef and F&B director, CIC — wood-fire restaurants Doma and Marine in Dogok-dong, and the Basque cheesecake brand Dexter Gordon; the oven was his own design" },
+      { "when": "2019–2020 · TV", "kr": "KBS 「한국인의 밥상」 · Olive 「식벤져스」 출연", "en": "KBS Korean Table · Olive TV Sikbengers" },
+      { "when": "2022–2024 · Seoul", "kr": "블그레(Blgre) 신사 · Lounge by Blgre 총괄 디렉터 — 젓갈 퀴진", "en": "Director, Blgre (블그레) Sinsa — a cuisine built on jeotgal, Korean salted seafood" },
+      { "when": "2024 · Netflix", "kr": "「흑백요리사: 요리 계급 전쟁」 시즌 1 — 흑수저 \"봉주부\"", "en": "Culinary Class Wars, Season 1 — competed as \"Bongjubu\"" },
+      { "when": "2025– · Ibiza", "kr": "스페인 이비자에서 프라이빗 케이터링과 새로운 챕터", "en": "Private catering and a new chapter on the island of Ibiza" }
+    ]
+  },
+  "dishesTitle": { "kr": "접시마다, 태어난 도시와 계절이 있다", "en": "Every plate carries the city and the season it was born in" },
+  "journalTitle": { "kr": "완성된 글이 아니라, 지금 쓰고 있는 기록", "en": "Not a finished story — a record in progress" },
+  "eventsTitle": { "kr": "팝업 · 콜라보 · 출연", "en": "Pop-ups · Collaborations · Appearances" },
+  "contact": {
+    "title": { "kr": "어떤 자리든, 이야기부터", "en": "Whatever the table — let's start with a conversation" },
+    "email": "chefbongsu88@gmail.com",
+    "instagram": "https://www.instagram.com/chefbongsu/",
+    "instagramHandle": "@chefbongsu",
+    "tags": ["Pop-up", "Collaboration", "Catering", "Media", "Consulting"]
+  },
+  "colophon": {
+    "kr": "이 사이트의 바탕색은 쌀뜨물, 포인트색은 숯불의 잉걸, 글자색은 간장에서 왔습니다. 제목은 종이책의 세리프, 손글씨는 서명입니다.",
+    "en": "The ground of this site is the color of rice-rinsing water; the accent, a charcoal ember; the ink, soy sauce. Headings are set in a book serif; the handwriting is a signature."
+  },
+  "domain": "https://www.chefbongsukim.com"
+}
