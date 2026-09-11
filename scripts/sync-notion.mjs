@@ -35,6 +35,28 @@ const dateStart = (p) => p?.date?.start || '';
 const dateFmt = (d) => (d ? d.slice(0, 7).replace('-', '.') : '');
 const slug = (s) => s.toLowerCase().replace(/[^a-z0-9가-힣]+/g, '-').replace(/^-|-$/g, '').slice(0, 40) || 'item';
 
+// 제목이 조금 달라도 같은 항목으로 찾기 (공통 단어가 가장 많은 항목; 없으면 null)
+const tokens = (s) => (s || '').toLowerCase().replace(/[「」『』"'“”‘’(),.:—–\-·]/g, ' ').split(/\s+/).filter((w) => w.length >= 2);
+function findPrev(list, kr, en) {
+  const exact = list.find((x) => x.kr === kr); if (exact) return exact;
+  const t = new Set([...tokens(kr), ...tokens(en)]);
+  let best = null, bestScore = 0;
+  for (const x of list) {
+    const score = [...new Set([...tokens(x.kr), ...tokens(x.en)])].filter((w) => t.has(w)).length;
+    if (score > bestScore) { best = x; bestScore = score; }
+  }
+  return bestScore >= 2 ? best : null;
+}
+// 날짜: 2020.06 / 기간이면 2020.06–07 / 1월 1일이면 연도만
+function whenFmt(p) {
+  const s = p?.date?.start || '', e = p?.date?.end || '';
+  if (!s) return '';
+  if (s.endsWith('-01-01') && !e) return s.slice(0, 4);
+  const a = s.slice(0, 7).replace('-', '.');
+  if (!e || e.slice(0, 7) === s.slice(0, 7)) return a;
+  return s.slice(0, 4) === e.slice(0, 4) ? `${a}–${e.slice(5, 7)}` : `${a}–${e.slice(0, 7).replace('-', '.')}`;
+}
+
 // Notion이 잠시 응답하지 않아도 빌드가 실패하지 않도록: 최대 3회 재시도
 async function retry(fn, label) {
   let last;
@@ -82,7 +104,7 @@ async function main() {
     for (const r of rows) {
       const p = r.properties; if (!chk(p['Show on site'])) continue;
       const kr = text(p['Name (KR)']);
-      const prev = lists.dishes.find((x) => x.kr === kr);
+      const prev = findPrev(lists.dishes, kr, text(p['Name (EN)']));
       items.push({ kr, en: text(p['Name (EN)']), origin: text(p['Origin']), image: (await saveFile(p['Photo'], 'dish-' + slug(kr))) || prev?.image || null, fit: prev?.fit, sample: prev?.sample, link: prev?.link, desc: { kr: text(p['One-liner (KR)']), en: text(p['One-liner (EN)']) } });
     }
     if (items.length) lists.dishes = items;
@@ -93,13 +115,11 @@ async function main() {
     const up = [], past = [];
     for (const r of rows) {
       const p = r.properties; const st = sel(p['Status']); if (st === 'Draft') continue;
-      const kr = text(p['Title (KR)']);
-      const base = { kr, en: text(p['Title (EN)']), type: sel(p['Type']), when: dateFmt(dateStart(p['Date'])) };
-      if (st === 'Upcoming') up.push({ ...base, date: dateStart(p['Date']).replace(/-/g, '.'), desc: { kr: text(p['Description (KR)']), en: text(p['Description (EN)']) } });
-      else {
-        const prev = lists.events.find((x) => x.kr === kr);
-        past.push({ ...base, image: (await saveFile(p['Cover'], 'ev-' + slug(kr))) || prev?.image || null, link: prev?.link });
-      }
+      const kr = text(p['Title (KR)']), en = text(p['Title (EN)']);
+      if (st === 'Upcoming') { up.push({ kr, en, type: sel(p['Type']), when: whenFmt(p['Date']), date: dateStart(p['Date']).replace(/-/g, '.'), desc: { kr: text(p['Description (KR)']), en: text(p['Description (EN)']) } }); continue; }
+      const prev = findPrev(lists.events, kr, en);
+      // 사진: Notion Cover가 있으면 그것, 없으면 기존 사진 유지. 링크: 기존 링크 유지. 유형: 기존 표기(Netflix/TV…) 유지
+      past.push({ kr, en, type: prev?.type || sel(p['Type']), when: whenFmt(p['Date']), image: (await saveFile(p['Cover'], 'ev-' + slug(kr))) || prev?.image || null, link: prev?.link });
     }
     lists.upcoming = up;
     if (past.length) lists.events = past;
